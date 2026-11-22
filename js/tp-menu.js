@@ -1,4 +1,4 @@
-/*! NAVISCHOOL menu 20aad363 */
+/*! NAVISCHOOL menu 7c6cf378 */
 /* =========================================================================
    NAVISCHOOL 상단 메뉴 — 첨부 TP 통합 스크립트의 메뉴 부분 그대로
    - #menu_navi 요소에 상단 네비게이션을 자동 마운트
@@ -7,7 +7,7 @@
    ========================================================================= */
 (function () {
 
-  var TP_DEFAULT_MENU = {"version":1,"updatedAt":"20aad363","groups":[{"id":"g-1","label":"회사소개","href":"./introduce.html","header":true,"footer":true,"items":[]},{"id":"g-2","label":"대표 인사말","href":"./ceo.html","header":true,"footer":true,"items":[]},{"id":"g-3","label":"비전 & 철학","href":"./vision.html","header":true,"footer":true,"items":[]},{"id":"g-4","label":"산하 독립 연구소","href":"https://biznovalab.com","header":true,"footer":true,"items":[{"id":"m-4-1","label":"비즈니스 혁신 연구소","href":"https://biznovalab.com","newTab":true,"header":true,"footer":true}]},{"id":"g-5","label":"소식","href":"./news.html","header":true,"footer":true,"items":[{"id":"m-5-1","label":"News & Event","href":"./news.html","newTab":false,"header":true,"footer":true},{"id":"m-5-2","label":"이벤트","href":"./event.html","newTab":false,"header":true,"footer":true},{"id":"m-5-3","label":"공지사항","href":"./notice.html","newTab":false,"header":true,"footer":true}]},{"id":"g-6","label":"오시는 길","href":"./location.html","header":true,"footer":true,"items":[]}]};
+  var TP_DEFAULT_MENU = {"version":1,"updatedAt":"7c6cf378","groups":[{"id":"g-1","label":"나비스쿨은","href":"./about.html","header":true,"footer":true,"items":[]},{"id":"g-2","label":"대표 인사말","href":"./ceo.html","header":true,"footer":true,"items":[]},{"id":"g-3","label":"비전 & 철학","href":"./vision.html","header":true,"footer":true,"items":[]},{"id":"g-4","label":"산하 독립 연구소","href":"https://biznovalab.com","header":true,"footer":true,"items":[{"id":"m-4-1","label":"비즈니스 혁신 연구소","href":"https://biznovalab.com","newTab":true,"header":true,"footer":true}]},{"id":"g-5","label":"소식","href":"./news.html","header":true,"footer":true,"items":[{"id":"m-5-1","label":"News & Event","href":"./news.html","newTab":false,"header":true,"footer":true},{"id":"m-5-2","label":"이벤트","href":"./event.html","newTab":false,"header":true,"footer":true},{"id":"m-5-3","label":"공지사항","href":"./notice.html","newTab":false,"header":true,"footer":true}]},{"id":"g-6","label":"오시는 길","href":"./location.html","header":true,"footer":true,"items":[]}]};
 
   function nnrSiteMenu() {
     if (window.__nnrSiteMenu) return window.__nnrSiteMenu;

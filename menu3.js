@@ -1,11 +1,11 @@
-/*! HTU CMS site be80cf0c */
-window.HTU_SITE_VERSION = 'be80cf0c';
+/*! HTU CMS site 65ede6b3 */
+window.HTU_SITE_VERSION = '65ede6b3';
 // ./menu3.js — HTU 헤더 메뉴 (HTU CMS 연동판)
 // 메뉴 · 로고는 관리자 > 헤더 메뉴 에서 수정합니다.
 // 관리자에 연결되지 않으면 아래 DEFAULT 메뉴로 표시됩니다.
 (function () {
   /* ───────── 기본값 (관리자 연결 실패 시) ───────── */
-  const DEFAULT = {"header":{"logo_url":"./img/navi/logo.svg","logo_light_url":"./img/navi/logo-w.svg","logo_text":"NAVI SCHOOL","logo_height":36},"menu":[{"label":"회사소개","url":"./introduce.html","external":false,"new_tab":false,"icon":null,"highlight":false,"children":[]},{"label":"대표 인사말","url":"./ceo.html","external":false,"new_tab":false,"icon":null,"highlight":false,"children":[]},{"label":"비전 & 철학","url":"./vision.html","external":false,"new_tab":false,"icon":null,"highlight":false,"children":[]},{"label":"산하 독립 연구소","url":"","external":false,"new_tab":false,"icon":null,"highlight":false,"children":[{"label":"비즈니스 혁신 연구소","url":"https://biznovalab.com","external":true,"new_tab":true,"icon":null,"highlight":false}]},{"label":"소식","url":"","external":false,"new_tab":false,"icon":null,"highlight":false,"children":[{"label":"News & Event","url":"./news.html","external":false,"new_tab":false,"icon":null,"highlight":false},{"label":"이벤트","url":"./event.html","external":false,"new_tab":false,"icon":null,"highlight":false},{"label":"공지사항","url":"./notice.html","external":false,"new_tab":false,"icon":null,"highlight":false}]},{"label":"오시는 길","url":"./location.html","external":false,"new_tab":false,"icon":null,"highlight":false,"children":[]},{"label":"오리엔테이션 신청하기","url":"https://cafe.naver.com/booktuber","external":true,"new_tab":true,"icon":null,"highlight":true,"children":[]}]};
+  const DEFAULT = {"header":{"logo_url":"./img/navi/logo.svg","logo_light_url":"./img/navi/logo-w.svg","logo_text":"NAVI SCHOOL","logo_height":36},"menu":[{"label":"나비스쿨은","url":"./about.html","external":false,"new_tab":false,"icon":null,"highlight":false,"children":[]},{"label":"대표 인사말","url":"./ceo.html","external":false,"new_tab":false,"icon":null,"highlight":false,"children":[]},{"label":"비전 & 철학","url":"./vision.html","external":false,"new_tab":false,"icon":null,"highlight":false,"children":[]},{"label":"산하 독립 연구소","url":"","external":false,"new_tab":false,"icon":null,"highlight":false,"children":[{"label":"비즈니스 혁신 연구소","url":"https://biznovalab.com","external":true,"new_tab":true,"icon":null,"highlight":false}]},{"label":"소식","url":"","external":false,"new_tab":false,"icon":null,"highlight":false,"children":[{"label":"News & Event","url":"./news.html","external":false,"new_tab":false,"icon":null,"highlight":false},{"label":"이벤트","url":"./event.html","external":false,"new_tab":false,"icon":null,"highlight":false},{"label":"공지사항","url":"./notice.html","external":false,"new_tab":false,"icon":null,"highlight":false}]},{"label":"오시는 길","url":"./location.html","external":false,"new_tab":false,"icon":null,"highlight":false,"children":[]},{"label":"오리엔테이션 신청하기","url":"https://cafe.naver.com/booktuber","external":true,"new_tab":true,"icon":null,"highlight":true,"children":[]}]};
   const CACHE_KEY = 'htu_layout_v1';
 
   /* ───────── 헤더 템플릿 (원본 디자인 그대로) ───────── */
@@ -452,8 +452,8 @@ window.HTU_SITE_VERSION = 'be80cf0c';
   var scriptsP = null;
   function ensureScripts() {
     if (!scriptsP) {
-      scriptsP = (endpoint() ? Promise.resolve() : loadScript('./js/htu-cms-config.js?v=20aad363'))
-        .then(function () { return window.HTU_I18N ? null : loadScript('./js/htu-i18n.js?v=20aad363'); })
+      scriptsP = (endpoint() ? Promise.resolve() : loadScript('./js/htu-cms-config.js?v=7c6cf378'))
+        .then(function () { return window.HTU_I18N ? null : loadScript('./js/htu-i18n.js?v=7c6cf378'); })
         .then(function () { return endpoint(); });
     }
     return scriptsP;
