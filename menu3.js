@@ -1,5 +1,5 @@
-/*! HTU CMS site 65ede6b3 */
-window.HTU_SITE_VERSION = '65ede6b3';
+/*! HTU CMS site e9bb7492 */
+window.HTU_SITE_VERSION = 'e9bb7492';
 // ./menu3.js — HTU 헤더 메뉴 (HTU CMS 연동판)
 // 메뉴 · 로고는 관리자 > 헤더 메뉴 에서 수정합니다.
 // 관리자에 연결되지 않으면 아래 DEFAULT 메뉴로 표시됩니다.
@@ -452,8 +452,8 @@ window.HTU_SITE_VERSION = '65ede6b3';
   var scriptsP = null;
   function ensureScripts() {
     if (!scriptsP) {
-      scriptsP = (endpoint() ? Promise.resolve() : loadScript('./js/htu-cms-config.js?v=7c6cf378'))
-        .then(function () { return window.HTU_I18N ? null : loadScript('./js/htu-i18n.js?v=7c6cf378'); })
+      scriptsP = (endpoint() ? Promise.resolve() : loadScript('./js/htu-cms-config.js?v=e415bd09'))
+        .then(function () { return window.HTU_I18N ? null : loadScript('./js/htu-i18n.js?v=e415bd09'); })
         .then(function () { return endpoint(); });
     }
     return scriptsP;
