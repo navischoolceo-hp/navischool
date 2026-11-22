@@ -1,4 +1,4 @@
-/*! NAVISCHOOL menu da69866b */
+/*! NAVISCHOOL menu 20aad363 */
 /* =========================================================================
    NAVISCHOOL 상단 메뉴 — 첨부 TP 통합 스크립트의 메뉴 부분 그대로
    - #menu_navi 요소에 상단 네비게이션을 자동 마운트
@@ -7,7 +7,7 @@
    ========================================================================= */
 (function () {
 
-  var TP_DEFAULT_MENU = {"version":1,"updatedAt":"da69866b","groups":[{"id":"g-1","label":"나비스쿨은","href":"./about.html","header":true,"footer":true,"items":[{"id":"m-1-1","label":"나비스쿨은","href":"./about.html","newTab":false,"header":true,"footer":true},{"id":"m-1-2","label":"비전 & 철학","href":"./vision.html","newTab":false,"header":true,"footer":true},{"id":"m-1-3","label":"인사말","href":"./greeting.html","newTab":false,"header":true,"footer":true},{"id":"m-1-4","label":"연혁","href":"./history.html","newTab":false,"header":true,"footer":true}]},{"id":"g-2","label":"관점변화","href":"./perspective.html","header":true,"footer":true,"items":[{"id":"m-2-1","label":"관점변화 칼럼","href":"./perspective.html","newTab":false,"header":true,"footer":true},{"id":"m-2-2","label":"관점변화 프로그램","href":"./perspective-program.html","newTab":false,"header":true,"footer":true},{"id":"m-2-3","label":"추천 도서 & 영상","href":"./perspective-media.html","newTab":false,"header":true,"footer":true},{"id":"m-2-4","label":"프로그램 후기","href":"./perspective-review.html","newTab":false,"header":true,"footer":true}]},{"id":"g-3","label":"선택변화","href":"./choice.html","header":true,"footer":true,"items":[{"id":"m-3-1","label":"선택변화 칼럼","href":"./choice.html","newTab":false,"header":true,"footer":true},{"id":"m-3-2","label":"선택변화 프로그램","href":"./choice-program.html","newTab":false,"header":true,"footer":true},{"id":"m-3-3","label":"추천 도서 & 영상","href":"./choice-media.html","newTab":false,"header":true,"footer":true},{"id":"m-3-4","label":"프로그램 후기","href":"./choice-review.html","newTab":false,"header":true,"footer":true}]},{"id":"g-4","label":"나다움변화","href":"./self.html","header":true,"footer":true,"items":[{"id":"m-4-1","label":"나다움변화 칼럼","href":"./self.html","newTab":false,"header":true,"footer":true},{"id":"m-4-2","label":"나다움변화 프로그램","href":"./self-program.html","newTab":false,"header":true,"footer":true},{"id":"m-4-3","label":"추천 도서 & 영상","href":"./self-media.html","newTab":false,"header":true,"footer":true},{"id":"m-4-4","label":"프로그램 후기","href":"./self-review.html","newTab":false,"header":true,"footer":true}]},{"id":"g-5","label":"패밀리 사이트","href":"https://www.youtube.com/booktuber","header":true,"footer":true,"items":[{"id":"m-5-1","label":"책추남TV","href":"https://www.youtube.com/booktuber","newTab":true,"header":true,"footer":true},{"id":"m-5-2","label":"나비출판","href":"#","newTab":true,"header":true,"footer":true},{"id":"m-5-3","label":"네이버 카페","href":"https://cafe.naver.com/booktuber","newTab":true,"header":true,"footer":true},{"id":"m-5-4","label":"오픈 채팅방","href":"#","newTab":true,"header":true,"footer":true},{"id":"m-5-5","label":"뉴스레터","href":"#","newTab":true,"header":true,"footer":true},{"id":"m-5-6","label":"나비스쿨 굿즈샵","href":"#","newTab":true,"header":true,"footer":true}]},{"id":"g-6","label":"진행 중인 프로그램","href":"./programs.html","header":true,"footer":true,"items":[{"id":"m-6-1","label":"진행 중인 프로그램","href":"./programs.html","newTab":false,"header":true,"footer":true},{"id":"m-6-2","label":"프로그램 일정","href":"./schedule.html","newTab":false,"header":true,"footer":true},{"id":"m-6-3","label":"세부 프로그램","href":"./program-detail.html","newTab":false,"header":true,"footer":true},{"id":"m-6-4","label":"연간 프로그램","href":"./annual.html","newTab":false,"header":true,"footer":true}]},{"id":"g-7","label":"오시는 길","href":"./location.html","header":true,"footer":true,"items":[{"id":"m-7-1","label":"오시는 길","href":"./location.html","newTab":false,"header":true,"footer":true}]}]};
+  var TP_DEFAULT_MENU = {"version":1,"updatedAt":"20aad363","groups":[{"id":"g-1","label":"나비스쿨은","href":"./about.html","header":true,"footer":true,"items":[{"id":"m-1-1","label":"나비스쿨은","href":"./about.html","newTab":false,"header":true,"footer":true},{"id":"m-1-2","label":"비전 & 철학","href":"./vision.html","newTab":false,"header":true,"footer":true},{"id":"m-1-3","label":"인사말","href":"./greeting.html","newTab":false,"header":true,"footer":true},{"id":"m-1-4","label":"연혁","href":"./history.html","newTab":false,"header":true,"footer":true}]},{"id":"g-2","label":"관점변화","href":"./perspective.html","header":true,"footer":true,"items":[{"id":"m-2-1","label":"관점변화 칼럼","href":"./perspective.html","newTab":false,"header":true,"footer":true},{"id":"m-2-2","label":"관점변화 프로그램","href":"./perspective-program.html","newTab":false,"header":true,"footer":true},{"id":"m-2-3","label":"추천 도서 & 영상","href":"./perspective-media.html","newTab":false,"header":true,"footer":true},{"id":"m-2-4","label":"프로그램 후기","href":"./perspective-review.html","newTab":false,"header":true,"footer":true}]},{"id":"g-3","label":"선택변화","href":"./choice.html","header":true,"footer":true,"items":[{"id":"m-3-1","label":"선택변화 칼럼","href":"./choice.html","newTab":false,"header":true,"footer":true},{"id":"m-3-2","label":"선택변화 프로그램","href":"./choice-program.html","newTab":false,"header":true,"footer":true},{"id":"m-3-3","label":"추천 도서 & 영상","href":"./choice-media.html","newTab":false,"header":true,"footer":true},{"id":"m-3-4","label":"프로그램 후기","href":"./choice-review.html","newTab":false,"header":true,"footer":true}]},{"id":"g-4","label":"나다움변화","href":"./self.html","header":true,"footer":true,"items":[{"id":"m-4-1","label":"나다움변화 칼럼","href":"./self.html","newTab":false,"header":true,"footer":true},{"id":"m-4-2","label":"나다움변화 프로그램","href":"./self-program.html","newTab":false,"header":true,"footer":true},{"id":"m-4-3","label":"추천 도서 & 영상","href":"./self-media.html","newTab":false,"header":true,"footer":true},{"id":"m-4-4","label":"프로그램 후기","href":"./self-review.html","newTab":false,"header":true,"footer":true}]},{"id":"g-5","label":"패밀리 사이트","href":"https://www.youtube.com/booktuber","header":true,"footer":true,"items":[{"id":"m-5-1","label":"책추남TV","href":"https://www.youtube.com/booktuber","newTab":true,"header":true,"footer":true},{"id":"m-5-2","label":"나비출판","href":"#","newTab":true,"header":true,"footer":true},{"id":"m-5-3","label":"네이버 카페","href":"https://cafe.naver.com/booktuber","newTab":true,"header":true,"footer":true},{"id":"m-5-4","label":"오픈 채팅방","href":"#","newTab":true,"header":true,"footer":true},{"id":"m-5-5","label":"뉴스레터","href":"#","newTab":true,"header":true,"footer":true},{"id":"m-5-6","label":"나비스쿨 굿즈샵","href":"#","newTab":true,"header":true,"footer":true}]},{"id":"g-6","label":"진행 중인 프로그램","href":"./programs.html","header":true,"footer":true,"items":[{"id":"m-6-1","label":"진행 중인 프로그램","href":"./programs.html","newTab":false,"header":true,"footer":true},{"id":"m-6-2","label":"공지사항","href":"./notice.html","newTab":false,"header":true,"footer":true},{"id":"m-6-3","label":"이벤트","href":"./event.html","newTab":false,"header":true,"footer":true},{"id":"m-6-4","label":"세부 프로그램","href":"./program-detail.html","newTab":false,"header":true,"footer":true},{"id":"m-6-5","label":"연간 프로그램","href":"./annual.html","newTab":false,"header":true,"footer":true}]},{"id":"g-7","label":"오시는 길","href":"./location.html","header":true,"footer":true,"items":[{"id":"m-7-1","label":"오시는 길","href":"./location.html","newTab":false,"header":true,"footer":true}]}]};
 
   function nnrSiteMenu() {
     if (window.__nnrSiteMenu) return window.__nnrSiteMenu;
@@ -87,7 +87,7 @@
 #nav-section .tp-header.hide-on-scroll{transform:translateY(-100%)}
 #nav-section .tp-header__inner{position:relative;display:flex;align-items:center;justify-content:space-between;gap:20px;max-width:1820px;height:var(--tp-h);margin:0 auto;padding:0 28px}
 #nav-section .tp-logo{display:flex;align-items:center;flex:none}
-#nav-section .tp-logo img{display:block;height:34px;width:auto;max-width:220px}
+#nav-section .tp-logo img{display:block;height:34px;width:auto;max-width:260px;object-fit:contain}
 #nav-section .tp-nav{display:flex;align-items:center;justify-content:center;gap:clamp(24px,4.6vw,88px);flex:1;height:100%}
 #nav-section .tp-nav__item{position:relative;height:100%;display:flex;align-items:center}
 #nav-section .tp-nav__link{position:relative;display:flex;align-items:center;height:100%;padding:0 4px;color:#fff;font-size:16px;font-weight:700;letter-spacing:-.2px;white-space:nowrap;transition:opacity .2s ease}
@@ -113,7 +113,7 @@
 #nav-section .tp-mobile-menu{position:fixed;top:0;right:0;bottom:0;z-index:20010;width:min(88vw,420px);background:var(--tp-bg);color:#fff;transform:translateX(102%);transition:transform .4s cubic-bezier(.2,.8,.2,1);display:flex;flex-direction:column;overflow-y:auto;overscroll-behavior:contain}
 #nav-section .tp-mobile-menu.open{transform:none;box-shadow:-20px 0 40px rgba(0,0,0,.3)}
 #nav-section .tp-mobile-header{display:flex;align-items:center;justify-content:space-between;height:var(--tp-h);padding:0 22px;border-bottom:1px solid var(--tp-line)}
-#nav-section .tp-mobile-header__logo img{display:block;height:30px;width:auto}
+#nav-section .tp-mobile-header__logo img{display:block;height:28px;width:auto;max-width:200px}
 #nav-section .tp-mobile-close{width:44px;height:44px;border:0;background:none;cursor:pointer;display:grid;place-items:center}
 #nav-section .tp-mobile-close svg{width:24px;height:24px}
 #nav-section .tp-mobile-nav{padding:8px 22px 28px}
@@ -140,7 +140,7 @@
 <header class="tp-header" id="tpHeader">
   <div class="tp-header__inner">
     <a href="./index.html" class="tp-logo" aria-label="나비스쿨 홈">
-      <img src="./img/navi/logo-w.svg" alt="나비스쿨">
+      <img src="./img/navi/logo-w.svg" alt="나비스쿨 NAVI SCHOOL">
     </a>
 
 <nav class="tp-nav" id="tpNav">
@@ -172,7 +172,7 @@ __TP_DROP__
 <div class="tp-mobile-menu" id="tpMobileMenu">
   <div class="tp-mobile-header">
     <a href="./index.html" class="tp-mobile-header__logo" aria-label="나비스쿨 홈">
-      <img src="./img/navi/logo-w.svg" alt="나비스쿨">
+      <img src="./img/navi/logo-w.svg" alt="나비스쿨 NAVI SCHOOL">
     </a>
 
 <button class="tp-mobile-close" id="tpMobileClose" type="button" aria-label="메뉴 닫기">

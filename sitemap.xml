@@ -18,25 +18,39 @@
   <url><loc>https://navischool.co.kr/self-media.html</loc><lastmod>2026-11-22</lastmod><priority>0.8</priority></url>
   <url><loc>https://navischool.co.kr/self-review.html</loc><lastmod>2026-11-22</lastmod><priority>0.8</priority></url>
   <url><loc>https://navischool.co.kr/programs.html</loc><lastmod>2026-11-22</lastmod><priority>0.8</priority></url>
-  <url><loc>https://navischool.co.kr/schedule.html</loc><lastmod>2026-11-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://navischool.co.kr/notice.html</loc><lastmod>2026-11-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://navischool.co.kr/event.html</loc><lastmod>2026-11-22</lastmod><priority>0.8</priority></url>
   <url><loc>https://navischool.co.kr/program-detail.html</loc><lastmod>2026-11-22</lastmod><priority>0.8</priority></url>
   <url><loc>https://navischool.co.kr/annual.html</loc><lastmod>2026-11-22</lastmod><priority>0.8</priority></url>
   <url><loc>https://navischool.co.kr/location.html</loc><lastmod>2026-11-22</lastmod><priority>0.8</priority></url>
   <url><loc>https://navischool.co.kr/privacy.html</loc><lastmod>2026-11-22</lastmod><priority>0.8</priority></url>
-  <url><loc>https://navischool.co.kr/column.html</loc><lastmod>2026-11-22</lastmod><priority>0.7</priority></url>
-  <url><loc>https://navischool.co.kr/column-perspective-01.html</loc><lastmod>2026-11-22</lastmod><priority>0.7</priority></url>
-  <url><loc>https://navischool.co.kr/column-perspective-02.html</loc><lastmod>2026-11-22</lastmod><priority>0.7</priority></url>
-  <url><loc>https://navischool.co.kr/column-perspective-03.html</loc><lastmod>2026-11-22</lastmod><priority>0.7</priority></url>
-  <url><loc>https://navischool.co.kr/column-perspective-04.html</loc><lastmod>2026-11-22</lastmod><priority>0.7</priority></url>
-  <url><loc>https://navischool.co.kr/column-perspective-05.html</loc><lastmod>2026-11-22</lastmod><priority>0.7</priority></url>
-  <url><loc>https://navischool.co.kr/column-choice-01.html</loc><lastmod>2026-11-22</lastmod><priority>0.7</priority></url>
-  <url><loc>https://navischool.co.kr/column-choice-02.html</loc><lastmod>2026-11-22</lastmod><priority>0.7</priority></url>
-  <url><loc>https://navischool.co.kr/column-choice-03.html</loc><lastmod>2026-11-22</lastmod><priority>0.7</priority></url>
-  <url><loc>https://navischool.co.kr/column-choice-04.html</loc><lastmod>2026-11-22</lastmod><priority>0.7</priority></url>
-  <url><loc>https://navischool.co.kr/column-choice-05.html</loc><lastmod>2026-11-22</lastmod><priority>0.7</priority></url>
-  <url><loc>https://navischool.co.kr/column-self-01.html</loc><lastmod>2026-11-22</lastmod><priority>0.7</priority></url>
-  <url><loc>https://navischool.co.kr/column-self-02.html</loc><lastmod>2026-11-22</lastmod><priority>0.7</priority></url>
-  <url><loc>https://navischool.co.kr/column-self-03.html</loc><lastmod>2026-11-22</lastmod><priority>0.7</priority></url>
-  <url><loc>https://navischool.co.kr/column-self-04.html</loc><lastmod>2026-11-22</lastmod><priority>0.7</priority></url>
-  <url><loc>https://navischool.co.kr/column-self-05.html</loc><lastmod>2026-11-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://navischool.co.kr/column.html</loc><lastmod>2026-11-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://navischool.co.kr/column-perspective-01.html</loc><lastmod>2026-11-22</lastmod><priority>0.6</priority></url>
+  <url><loc>https://navischool.co.kr/column-perspective-02.html</loc><lastmod>2026-11-22</lastmod><priority>0.6</priority></url>
+  <url><loc>https://navischool.co.kr/column-perspective-03.html</loc><lastmod>2026-11-22</lastmod><priority>0.6</priority></url>
+  <url><loc>https://navischool.co.kr/column-perspective-04.html</loc><lastmod>2026-11-22</lastmod><priority>0.6</priority></url>
+  <url><loc>https://navischool.co.kr/column-perspective-05.html</loc><lastmod>2026-11-22</lastmod><priority>0.6</priority></url>
+  <url><loc>https://navischool.co.kr/column-choice-01.html</loc><lastmod>2026-11-22</lastmod><priority>0.6</priority></url>
+  <url><loc>https://navischool.co.kr/column-choice-02.html</loc><lastmod>2026-11-22</lastmod><priority>0.6</priority></url>
+  <url><loc>https://navischool.co.kr/column-choice-03.html</loc><lastmod>2026-11-22</lastmod><priority>0.6</priority></url>
+  <url><loc>https://navischool.co.kr/column-choice-04.html</loc><lastmod>2026-11-22</lastmod><priority>0.6</priority></url>
+  <url><loc>https://navischool.co.kr/column-choice-05.html</loc><lastmod>2026-11-22</lastmod><priority>0.6</priority></url>
+  <url><loc>https://navischool.co.kr/column-self-01.html</loc><lastmod>2026-11-22</lastmod><priority>0.6</priority></url>
+  <url><loc>https://navischool.co.kr/column-self-02.html</loc><lastmod>2026-11-22</lastmod><priority>0.6</priority></url>
+  <url><loc>https://navischool.co.kr/column-self-03.html</loc><lastmod>2026-11-22</lastmod><priority>0.6</priority></url>
+  <url><loc>https://navischool.co.kr/column-self-04.html</loc><lastmod>2026-11-22</lastmod><priority>0.6</priority></url>
+  <url><loc>https://navischool.co.kr/column-self-05.html</loc><lastmod>2026-11-22</lastmod><priority>0.6</priority></url>
+  <url><loc>https://navischool.co.kr/program-p-insight.html</loc><lastmod>2026-11-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://navischool.co.kr/program-p-aha.html</loc><lastmod>2026-11-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://navischool.co.kr/program-p-orientation.html</loc><lastmod>2026-11-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://navischool.co.kr/program-p-booksalon.html</loc><lastmod>2026-11-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://navischool.co.kr/program-p-phoenix.html</loc><lastmod>2026-11-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://navischool.co.kr/program-p-lifechanger.html</loc><lastmod>2026-11-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://navischool.co.kr/program-p-realsecret.html</loc><lastmod>2026-11-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://navischool.co.kr/program-p-brand.html</loc><lastmod>2026-11-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://navischool.co.kr/program-p-messenger.html</loc><lastmod>2026-11-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://navischool.co.kr/notice-n31.html</loc><lastmod>2026-11-22</lastmod><priority>0.6</priority></url>
+  <url><loc>https://navischool.co.kr/notice-n32.html</loc><lastmod>2026-11-22</lastmod><priority>0.6</priority></url>
+  <url><loc>https://navischool.co.kr/notice-n33.html</loc><lastmod>2026-11-22</lastmod><priority>0.6</priority></url>
+  <url><loc>https://navischool.co.kr/event-n34.html</loc><lastmod>2026-11-22</lastmod><priority>0.6</priority></url>
 </urlset>
