@@ -14,7 +14,7 @@ window.HTU_SITE_VERSION = 'e9bb7492';
   <style>
     /* ============== Scope: #nbbioHeaderLocal only ============== */
     #nbbioHeaderLocal{
-      --ink:#0b1220; --muted:#3b3f45; --brand:#0a6a62;
+      --ink:#0b1220; --muted:#3b3f45; --brand:#238c72;
       --line:#e8ecef; --bg:#f6f7f8; --white:#fff; --overlay:rgba(0,0,0,.55);
       --z:20000; --shadow:0 12px 30px rgba(16,24,40,.12);
       font-family:Pretendard,"Noto Sans KR",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;

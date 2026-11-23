@@ -13,7 +13,7 @@
 <section id="footerElite" aria-label="사이트 푸터" style="position:relative;">
   <style>
     #footerElite{
-      --bg:#033b1e;
+      --bg:#12876a;
       --ink:#e5e7eb;
       --muted:#9aa1aa;
       --line:rgba(255,255,255,.08);
@@ -230,7 +230,7 @@
     }
 
     #footerElite .familyMenu::-webkit-scrollbar-thumb{
-      background:rgba(3,59,30,.28);
+      background:rgba(18,135,106,.28);
       border-radius:999px;
     }
 
@@ -356,7 +356,7 @@
     #footerElite .sns svg{ width:16px; height:16px; display:block; }
     #footerElite .policy{ display:flex; flex-wrap:wrap; gap:.3rem 1rem; margin-top:.7rem; }
     #footerElite .policy a{ color:#d7dde6; font-weight:700; font-size:.82rem; }
-    #footerElite .policy a:first-child{ color:#7fd3b8; }
+    #footerElite .policy a:first-child{ color:#a0eedb; }
     #footerElite .familyArea[hidden]{ display:none; }
     @media(min-width:901px){
       #footerElite .menuRow{ grid-template-columns:repeat(var(--cols,5),minmax(0,1fr)); }

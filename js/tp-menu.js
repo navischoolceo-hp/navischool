@@ -78,7 +78,7 @@
 <section id="nav-section">
 <style>
 /* ===== NAVISCHOOL 확정 메뉴 · TP 헤더 (첨부 TP 통합 스크립트 구조) — #nav-section 단일 스코프 ===== */
-#nav-section{--tp-h:80px;--tp-bg:#033b1e;--tp-line:rgba(255,255,255,.1);position:relative;z-index:20000;font-family:Pretendard,"Pretendard Variable","Noto Sans KR",system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased}
+#nav-section{--tp-h:80px;--tp-bg:#12876a;--tp-line:rgba(255,255,255,.1);position:relative;z-index:20000;font-family:Pretendard,"Pretendard Variable","Noto Sans KR",system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased}
 #nav-section *{box-sizing:border-box}
 #nav-section a{text-decoration:none}
 #nav-section .tp-header{position:fixed;top:0;left:0;right:0;z-index:20000;background:var(--tp-bg);border-bottom:1px solid var(--tp-line);transition:background .3s ease,border-color .3s ease,transform .35s ease}
@@ -92,7 +92,7 @@
 #nav-section .tp-nav__item{position:relative;height:100%;display:flex;align-items:center}
 #nav-section .tp-nav__link{position:relative;display:flex;align-items:center;height:100%;padding:0 4px;color:#fff;font-size:16px;font-weight:700;letter-spacing:-.2px;white-space:nowrap;transition:opacity .2s ease}
 #nav-section .tp-nav.has-active .tp-nav__item:not(.active) .tp-nav__link{opacity:.55}
-#nav-section .tp-nav__link::after{content:"";position:absolute;left:50%;bottom:0;width:0;height:3px;background:#7fd3b8;transform:translateX(-50%);transition:width .25s ease}
+#nav-section .tp-nav__link::after{content:"";position:absolute;left:50%;bottom:0;width:0;height:3px;background:#a0eedb;transform:translateX(-50%);transition:width .25s ease}
 #nav-section .tp-nav__item.active .tp-nav__link::after{width:100%}
 #nav-section .tp-lang{flex:none;width:44px}
 #nav-section .tp-hamburger{display:none;flex:none;width:44px;height:40px;border:1px solid rgba(255,255,255,.28);border-radius:10px;background:transparent;cursor:pointer;padding:0 11px;flex-direction:column;justify-content:center;gap:5px}
