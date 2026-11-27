@@ -800,8 +800,9 @@
 @media (max-width:760px){#nvRev .nr-videos{grid-template-columns:1fr}#nvRev .nr-card{padding:24px 20px 20px}}</style><div class="ui-wrap">
 <header class="nr-head"><div><p class="ui-kicker">ALL REVIEWS</p><h2 class="ui-h">프로그램별 후기</h2><p class="ui-desc">프로그램 이름을 누르면 그 프로그램 후기로 바로 이동합니다.</p></div></header>
 
-
-<p class="nr-empty">아직 등록된 후기가 없습니다.</p>
+<section class="nr-group" id="rv-etc" data-grp><header class="nr-ghead"><div><h3>기타 후기</h3></div><div class="nr-gside"><b>1</b><small>개의 후기</small></div></header><div class="nr-videos" data-grp><article class="nr-vid ui-rv" data-rt="video" data-rp=""><button type="button" class="nr-play" data-src="https://www.youtube-nocookie.com/embed/48UebEP3TZU?autoplay=1&amp;rel=0&amp;playsinline=1" aria-label="백상열 · 공개 인터뷰 영상 보기"><img src="https://i.ytimg.com/vi/48UebEP3TZU/hqdefault.jpg" alt="" loading="lazy" decoding="async" onerror="this.remove()"><i aria-hidden="true"></i></button><div class="nr-vt"><p class="nr-sum">백상열이 전하는 배움과 성장의 이야기</p><p class="nr-body is-clamp">책추남TV에서 공개한 나비효과 인터뷰 영상입니다. 인터뷰 원문을 직접 확인해 보세요. 특정 프로그램의 수강 후기나 동일한 결과를 보장하는 자료로 제시하지 않습니다.</p><div class="nr-who"><b>백상열 · 공개 인터뷰</b><span>책추남TV 나비효과 인터뷰</span></div></div></article></div>
+</section>
+<p class="nr-empty" hidden>조건에 맞는 후기가 없습니다.</p>
 <p class="nr-note">※ 개인의 경험이며 동일한 결과를 보장하지 않습니다.</p>
 </div><script>(function(){var S=document.getElementById('nvRev');if(!S)return;var L=S.querySelectorAll('.ui-rv');if(!('IntersectionObserver' in window)){L.forEach(function(e){e.classList.add('is-in')});return;}var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-in');io.unobserve(e.target)}})},{rootMargin:'0px 0px -8% 0px'});L.forEach(function(e){io.observe(e)})})();</script><script>(function(){var S=document.getElementById('nvRev');if(!S)return;var type='all',prog='';
 function apply(){var n=0;S.querySelectorAll('[data-rt]').forEach(function(e){var on=(type==='all'||e.getAttribute('data-rt')===type)&&(!prog||e.getAttribute('data-rp')===prog);e.hidden=!on;if(on)n++});
